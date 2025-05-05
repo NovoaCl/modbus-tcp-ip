@@ -1,0 +1,11 @@
+[package]
+name = "modbus_logger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-modbus = "0.5"
+tokio-postgres = "0.7"
+chrono = "0.4"
+dotenv = "0.15"
